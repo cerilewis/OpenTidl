@@ -79,6 +79,9 @@ namespace OpenTidl.Models
         [DataMember(Name = "copyright")]
         public String Copyright { get; private set; }
 
+        [DataMember(Name = "isrc")]
+        public String ISrc { get; private set; }
+
 
         #region json helpers
 
